@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Acme;
+    src: url(/font/Acme-Regular.ttf);
+}
+
+body {
+    background-color: #00dbff;
+    overflow-y: hidden;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.background-image {
+    flex: 40%;
+    background-image: url(/images/Background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    font-family: Acme;
+    color: #00dbff;
+    font-weight: 100;
+    font-size: 1em;
+}
+
+.background-visibility {
+    position: relative;
+    background: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    height: 250px;
+    top: 120px;
+}
+
+#Photo-Creds {
+    font-family: Acme;
+    color: white;
+    font-size: 0.7rem;
+    position:absolute;
+    bottom: 0;
+    left: 12%;
+}
+
+.container {
+    flex: 60%;
+    background-color: #00dbff;
+    flex-grow: 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.intro_text {
+    font-family: Acme;
+    font-size: 2.5rem;
+}
+
+fieldset {
+    font-family: Acme;
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 90%;
+    height: 200px;
+    /* Form outline */
+    padding: 1em;
+    border: 5px solid #CCC;
+    border-radius: 1em;
+}
+
+legend {
+    font-family: Acme;
+}
+
+.button {
+    font-family: Acme;
+    background-color: #00dbff;
+}
